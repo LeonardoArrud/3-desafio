@@ -1,0 +1,143 @@
+@font-face {
+    font-family: poppinsB;
+    src: url('fonte/Poppins-Bold.ttf');
+}
+@font-face {
+    font-family: poppinsR;
+    src: url('fonte/Poppins-Regular.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+#logo{
+    font-family: poppinsB;
+    color:black;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    opacity: 0.7;
+}
+.btn-mav{
+    transition: 0.2s;
+}
+.btn-nav:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0);
+    transform: scale(1.05);
+}
+html {
+    scroll-behavior: smooth;
+}
+.barra{
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+    font-family: poppinsB;
+    color: black;
+}
+/* pokedex */
+body{
+    background: linear-gradient(to right, #d4d3dd, #efefbb);
+    align-items: center;
+    justify-content: center;
+}
+button{
+    justify-self: center;
+}
+.pokemons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pokemon:hover{
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.76);
+    transform: scale(1.05);
+}
+h1{
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-family: poppinsR;
+}
+.selecionado {
+    background-color: black;
+    color: white;
+}
+
+.pokeContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon{
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(128, 128, 128, 0.651);
+    margin: 10px;
+    padding: 20px;
+    cursor: pointer;
+    
+}
+#criar-time-btn {
+    position: relative;
+    left: 48%;
+    transform: translateX(-50%);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.603);
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+
+}
+.foto img{
+    width: 200px;
+}
+.info{
+    margin-top: 20px;
+}
+.number{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2px 13px;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+.nome{
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+}
