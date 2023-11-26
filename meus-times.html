@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Times</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .time {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .pokemon {
+            display: inline-block;
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        .pokemon img {
+            max-width: 100px; /* Ajuste conforme necessário */
+        }
+        li{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <section class="main-container">
+        <h1 class="titulo">Pokemons do Time </h1>
+        <div class="cards">
+            <!--Cards serão adicionados aqui dinamicamente pelo js-->
+        </div>
+    </section>
+
+    <script src="times.js"></script>
+    </script>
+</body>
+</html>
